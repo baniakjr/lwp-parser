@@ -22,7 +22,7 @@ dependencies {
     testImplementation(kotlin("test"))
     testImplementation(libs.junit.params)
     testImplementation(libs.assertj)
-    implementation("com.github.baniakjr:lwp-lib:main-SNAPSHOT")
+    implementation(libs.lwplib)
     implementation(libs.gson)
 }
 

@@ -2,11 +2,13 @@
 assertj = "3.27.3"
 junit = "5.11.4"
 gson = "2.11.0"
+lwplib = "1.0"
 
 [libraries]
 assertj = { group = "org.assertj", name = "assertj-core", version.ref = "assertj" }
 junit-params = { group = "org.junit.jupiter", name = "junit-jupiter-params", version.ref = "junit" }
 gson = { group = "com.google.code.gson", name = "gson", version.ref = "gson"}
+lwplib = { group = "com.github.baniakjr", name = "lwp-lib", version.ref = "lwplib" }
 
 [plugins]
 
