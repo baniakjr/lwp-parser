@@ -4,7 +4,7 @@ import java.util.*
 
 val commandParser = LWPCommandParser()
 val jsonFileReader = JsonFileReader()
-val formatter = HexFormat.of()
+val formatter: HexFormat = HexFormat.of()
 
 fun main(args: Array<String>) {
     if(args.isNotEmpty()) {

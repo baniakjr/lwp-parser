@@ -35,7 +35,7 @@ class LWPCommandParser {
             Command.PORT_OUTPUT_COMMAND_FEEDBACK -> portOutputCommandFeedback(message)
             else -> ""
         }
-        return if (commandDescription.isBlank()) formatter.formatHex(message) else commandDescription
+        return commandDescription.ifBlank { formatter.formatHex(message) }
     }
 
     private fun <C> getNameIfKnown(lwpClass: Class<C>, value: Byte): String where C : Enum<C>?, C : LWPByteValue? {
