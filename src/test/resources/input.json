@@ -1,0 +1,89 @@
+[
+  {
+    "_index": "packets-2025-02-07",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {},
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.src": "00:00:00:00:00:00",
+          "bluetooth.addr": "00:00:00:00:00:01",
+          "bluetooth.dst": "00:00:00:00:00:01"
+        },
+        "hci_h4": {},
+        "bthci_acl": {},
+        "btl2cap": {},
+        "btatt": {
+          "btatt.opcode": "0x1b",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x1b"
+          },
+          "btatt.handle": "0x0012",
+          "btatt.value": "05:00:01:01:02"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-02-07",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {},
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:01",
+          "bluetooth.src": "00:00:00:00:00:01",
+          "bluetooth.addr": "00:00:00:00:00:00",
+          "bluetooth.dst": "00:00:00:00:00:00"
+        },
+        "hci_h4": {},
+        "bthci_acl": {},
+        "btl2cap": {},
+        "btatt": {
+          "btatt.opcode": "0x1b",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x1b"
+          },
+          "btatt.handle": "0x0012",
+          "btatt.value": "05:00:05:01:06"
+        }
+      }
+    }
+  },
+  {
+    "_index": "packets-2025-02-07",
+    "_type": "doc",
+    "_score": null,
+    "_source": {
+      "layers": {
+        "frame": {},
+        "bluetooth": {
+          "bluetooth.addr": "00:00:00:00:00:03",
+          "bluetooth.src": "00:00:00:00:00:03",
+          "bluetooth.addr": "00:00:00:00:00:02",
+          "bluetooth.dst": "00:00:00:00:00:02"
+        },
+        "hci_h4": {},
+        "bthci_acl": {},
+        "btl2cap": {},
+        "btatt": {
+          "btatt.opcode": "0x1b",
+          "btatt.opcode_tree": {
+            "btatt.opcode.authentication_signature": "0",
+            "btatt.opcode.command": "0",
+            "btatt.opcode.method": "0x1b"
+          },
+          "btatt.handle": "0x0012",
+          "btatt.value": "0f:00:04:32:01:56:00:01:00:00:00:02:00:00:00"
+        }
+      }
+    }
+  }
+]
